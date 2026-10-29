@@ -1,0 +1,22 @@
+{
+  "name": "stacklab-advanced-stack-management",
+  "version": "1.0.0",
+  "description": "StackLab — Advanced Stack Management System for Second-Year Computer Engineering Data Structures",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test:cpp": "g++ -std=c++14 -Icpp cpp/ArrayStack.cpp cpp/LinkedListStack.cpp cpp/ParenthesesChecker.cpp cpp/ExpressionConverter.cpp cpp/ExpressionEvaluator.cpp cpp/test_main.cpp -o build/stacklab_test && build/stacklab_test"
+  },
+  "keywords": [
+    "data-structures",
+    "stack",
+    "c++",
+    "webassembly",
+    "educational",
+    "visualizer",
+    "computer-engineering"
+  ],
+  "author": "Computer Engineering Department",
+  "license": "MIT"
+}
